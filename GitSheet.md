@@ -1,5 +1,5 @@
 # GIT
-
+### getting started
 - Initiate your local repository.
 
         git init
@@ -14,7 +14,7 @@
 
 - Make your commit.
 
-        git commit -m "you Message"
+        git commit -m "your Message"
 
 - Send your work to the remote repo.
 
@@ -26,6 +26,9 @@
 
             git push
 
+
+
+### Additional commands
 
 - copy a remote repository, replacing all files with the remote version.
 
