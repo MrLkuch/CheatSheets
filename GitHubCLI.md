@@ -39,3 +39,13 @@
     ```-l, --label <name>``` | Add labels by name
     ```-a, --assignee <login>``` | Assign people by their login. Use "@me" to self-assign
 <br>
+
+- ```gh issue list [flags]``` : List issues
+
+    Options | effect 
+    --- | --- 
+    ```-a, --assignee <string>``` | Filter by assignee
+    ```-A, --author <string>``` | Filter by author
+    ```-s, --state <string> (default "open")``` | Filter by state: {open\|closed\|all}
+    ```-l, --label <strings>``` | Filter by label
+<br>
