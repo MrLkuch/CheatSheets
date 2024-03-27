@@ -69,3 +69,24 @@
     --- | --- 
     ```-c, --comment <string>``` | Leave a reopening comment
 <br>
+
+## pull request
+
+- ```gh pr create [flags]``` : Create an pull request
+
+    Options | effect 
+    --- | --- 
+    ```-B, --base <branch>``` | The branch into which you want your code merged
+    ```-f, --fill``` | Use commit info for title and body
+    ```-l, --label <name>``` | Add labels by name
+<br>
+
+- ```gh pr list [flags]``` : List pull request
+
+    Options | effect 
+    --- | --- 
+    ```-a, --assignee <string>``` | Filter by assignee
+    ```-A, --author <string>``` | Filter by author
+    ```-s, --state <string> (default "open")``` | Filter by state: {open\|closed\|merged\|all}
+    ```-l, --label <strings>``` | Filter by label
+<br>
