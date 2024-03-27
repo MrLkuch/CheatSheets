@@ -28,3 +28,14 @@
     ```-b, --branch <string>``` | View a specific branch of the repository
     ```-w, --web``` | Open a repository in the browser
 <br>
+
+## issue
+
+- ```gh issue create [flags]``` : Create an issue
+
+    Options | effect 
+    --- | --- 
+    ```-t, --title <string>``` | Supply a title
+    ```-l, --label <name>``` | Add labels by name
+    ```-a, --assignee <login>``` | Assign people by their login. Use "@me" to self-assign
+<br>
