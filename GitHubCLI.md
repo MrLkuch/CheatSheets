@@ -49,3 +49,23 @@
     ```-s, --state <string> (default "open")``` | Filter by state: {open\|closed\|all}
     ```-l, --label <strings>``` | Filter by label
 <br>
+
+- ```gh issue status``` : Show status of relevant issues
+- ```gh issue view {<number> | <url>} [flags]``` : View a specific issue
+    Options | effect 
+    --- | --- 
+    ```-c, --comments``` | View issue comments
+<br>
+
+- ```gh issue close {<number> | <url>} [flags]``` : Close issue
+    Options | effect 
+    --- | --- 
+    ```-c, --comment <string>``` | Leave a closing comment
+    ```-r, --reason <string>``` | Reason for closing
+<br>
+
+- ```gh issue reopen {<number> | <url>} [flags]``` : Reopen an issue
+    Options | effect 
+    --- | --- 
+    ```-c, --comment <string>``` | Leave a reopening comment
+<br>
