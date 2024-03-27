@@ -37,3 +37,29 @@
 - receive changes made on the remote repository without replace your files.
 
         git pull
+
+### Work with a forked repository
+
+After forking the choosen repository start by clone the repository
+
+        git clone <linkToYourRemoteRepo>
+
+
+### Work with branches
+
+Create branch
+
+        git branch <branchName>
+
+Change branch
+
+        git switch <branchName>
+
+Apply the changes of a branch to the current branch
+
+        git merge <branchName>
+
+> Fast-fortward: the historic is linear <br>
+git pull: fetch + merge <br>
+git fetch: take the changes of the remote repository and save then in a "hidden branch" <br>
+git diff: compare the differences between two branches
