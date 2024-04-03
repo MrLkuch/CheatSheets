@@ -63,3 +63,28 @@ Apply the changes of a branch to the current branch
 git pull: fetch + merge <br>
 git fetch: take the changes of the remote repository and save then in a "hidden branch" <br>
 git diff: compare the differences between two branches
+
+
+### When you made a mistake
+
+- when you want to rollback <br>
+        
+        git reflog
+
+you will see a list of every thing you've
+done in git, across all branches <br>
+each one has an index HEAD@{index}
+find the one before you broke everything then use :
+        
+        git reset HEAD@{index}
+
+<br>
+
+- when you need to add a small change while already made the commit
+
+make your change
+        git add . # or add individual files
+
+        git commit --amend --no-edit
+now your last commit contains that change!
+> WARNING: never amend public commits
