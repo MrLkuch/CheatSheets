@@ -101,3 +101,5 @@ now your last commit contains that change!
 - `git diff`: compare the differences between two branches
 - `git reset` : go to a previous state without creating a new commit
 - `git revert` : go to a previous state and create a new commit
+- `git stash` : stash your modifications
+- `git stash pop` : pop back the stashed modifications
