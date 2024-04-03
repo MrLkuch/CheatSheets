@@ -59,11 +59,6 @@ Apply the changes of a branch to the current branch
 
         git merge <branchName>
 
-> Fast-fortward: the historic is linear <br>
-git pull: fetch + merge <br>
-git fetch: take the changes of the remote repository and save then in a "hidden branch" <br>
-git diff: compare the differences between two branches
-
 
 ### When you made a mistake
 
@@ -92,3 +87,14 @@ now your last commit contains that change!
 - rename a commit
 
         git commit --amend
+
+<br>
+
+## General notions
+
+- Fast-fortward: the historic is linear <br>
+- `git pull`: fetch + merge <br>
+- `git fetch`: take the changes of the remote repository and save then in a "hidden branch" <br>
+- `git diff`: compare the differences between two branches
+- `git reset` : go to a previous state without creating a new commit
+- `git revert` : go to a previous state and create a new commit
