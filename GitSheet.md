@@ -88,3 +88,7 @@ make your change
         git commit --amend --no-edit
 now your last commit contains that change!
 > WARNING: never amend public commits
+
+- rename a commit
+
+        git commit --amend
