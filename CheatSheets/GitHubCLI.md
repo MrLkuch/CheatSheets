@@ -1,5 +1,5 @@
 # GitHub CLI
-<p align="center"><img src ="ghcli.png"/></p>
+<p align="center"><img src ="../Assets/ghcli.png"/></p>
 
 
 

@@ -74,7 +74,7 @@ find the one before you broke everything then use :
         git reset HEAD@{index}
 use the flags: `--soft`, `--mixed` and `hard` depending of where you want the reset to happen
 
-<img src="reset.png"/>
+<img src="../Assets/reset.png"/>
 
 <br>
 
