@@ -22,7 +22,9 @@
 - in line css weight more than any selector
 - `!important` pass over any other declaration but still weight less than inline
 
-        You can "calculate" the weight of a selectors by using the table and add 1 on the right column, the highest score means that the selector weight 
+        You can "calculate" the weight of a selectors by using the table and add 1 on the right column, the highest "score" means that the selector weight 
+        
+        The left colum is always worth more than any value on the other columns on it's right.
         
     Inline/important | ID | Class | Elements  
     --- | --- | --- | --- 
