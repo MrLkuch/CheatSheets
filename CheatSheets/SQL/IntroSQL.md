@@ -38,3 +38,16 @@
                 WHERE name = 'Jean';
         ```
 
+### Data types
+
+- **INT** : whole numbers
+- **VARCHAR** : string with undefined size
+- **CHAR** : fixed size string
+- **TEXT** : high length string
+- **DATE** : for dates
+- **TIME** : for hours
+- **TIMESTAMP** : to save a precise moment
+- **FLOAT**,**DOUBLE** : decimal numbers
+- **DECIMAL** : for monetary values or when precision is mendatory
+- **BLOB** : stock binary data such as images or media files
+- **BOOLEAN** : True or False data
